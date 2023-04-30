@@ -76,19 +76,9 @@
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Service</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="service.html">Service</a></li>
-                                                <li><a href="service-single.html">Service Single</a></li>
-                                            </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Portfolio</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
-                                                <li><a href="portfolio-masonary.html">Portfolio Masonary</a></li>
-                                                <li><a href="portfolio.html">Portfolio Slide</a></li>
-                                                <li><a href="portfolio-single.html">Portfolio Single</a></li>
-                                            </ul>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Blog</a>
