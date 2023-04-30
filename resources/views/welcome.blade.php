@@ -69,12 +69,7 @@
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
                                         <li class="menu-item-has-children">
-                                            <a class="active" href="#">Home</a>
-                                            <ul class="sub-menu">
-                                                <li><a class="active" href="index.html">Main Home</a></li>
-                                                <li><a href="index-2.html">Home Style 2</a></li>
-                                                <li><a href="index-3.html">Home Style 3</a></li>
-                                            </ul>
+                                            <a class="active" href="/">Home</a>
                                         </li>
                                         <li>
                                             <a href="about.html">About</a>
