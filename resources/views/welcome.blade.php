@@ -37,7 +37,7 @@
                     <div class="loader-line-mask">
                         <div class="loader-line"></div>
                     </div>
-                    <img src="{{ asset('build/assets/frontend/images/preloader.png') }}" alt="">
+                    <img src="{{ asset('build/assets/frontend/images/preloader.png') }}" alt="preloader">
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
                                     <a class="navbar-brand site-logo" href="/"><img
-                                            src="{{ asset('build/assets/frontend/images/logo.png') }}" alt="">Sabbir.</a>
+                                            src="{{ asset('build/assets/frontend/images/logo.png') }}" alt="logo">Sabbir.</a>
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-1 col-1">
@@ -93,7 +93,7 @@
                             <div class="col-lg-2 col-md-2 col-2">
                                 <div class="header-right">
                                     <div class="header-btn">
-                                        <a class="theme-btn" download="My Cv" href="{{ asset('build/assets/frontend/images/cv.jpg') }}"
+                                        <a class="theme-btn" download="My Cv" target="_blank" href="https://drive.google.com/file/d/16CltbSR6gIA8-jcHzrMkAuMaLsQgzBTT/view?usp=share_link"
                                             title="ImageName">
                                             <img class="hide-img" alt="ImageName" src="{{ asset('build/assets/frontend/images/cv.jpg') }}">
                                             Resume
@@ -133,16 +133,16 @@
             <div class="static-hero-right">
                 <div class="static-hero-img">
                     <div class="static-hero-img-inner">
-                        <img src="{{ asset('build/assets/frontend/images/sabbir1.jpeg') }}" alt="">
-                        <div class="icon-1 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/photoshop.svg') }}" alt=""></div>
-                        <div class="icon-2 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/illustrator.svg') }}" alt=""></div>
-                        <div class="icon-3 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/diamond.svg') }}" alt=""></div>
+                        <img src="{{ asset('build/assets/frontend/images/sabbir1.jpeg') }}" alt="image">
+                        <div class="icon-1 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/go-lang.png') }}" alt=""></div>
+                        <div class="icon-2 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/php.png') }}" alt=""></div>
+                        <div class="icon-3 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/mysql.png') }}" alt=""></div>
                         <div class="project floating-item">
                             <div class="icon">
                                 <i class="fi flaticon-verified"></i>
                             </div>
                             <div class="p-text">
-                                <h3><span class="odometer" data-count="1500">00</span>+</h3>
+                                <h3><span class="odometer" data-count="10">00</span>+</h3>
                                 <p>Complete Project</p>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                     <div class="col-lg-5 col-md-12 col-sm-12">
                         <div class="wpo-about-exprience-wrap">
                             <div class="wpo-about-exprience">
-                                <h2>08</h2>
+                                <h2>02</h2>
                                 <span>Years of Experience</span>
                             </div>
                             <div class="client">
@@ -223,45 +223,43 @@
                         <div class="wpo-about-content">
                             <div class="wpo-about-title">
                                 <h2>My Advantage</h2>
-                                <p>Must explain to you how all this mistaken idea of denouncing
-                                    pleasure and praising pain was born and I will give you a complete account
-                                    the system and expound the actual and praising pain was born.</p>
+                                <p>I'm a self-disciplined person, intention-orientated and reliable. I have a detailed mind, am very bendy, and continually prioritize my purchaser in particular else. I make certain all tasks are given complete consideration to the desires and results as directed through the consumer. Loving a project and, as a fantastically organized and equipped operator, I will make sure that my projects are successfully completed in the time allotted. allow me to help with HTML, CSS, Core PHP, Laravel, Go Language.</p>
                             </div>
                             <div class="wpo-about-funfact">
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="98">00</span>%</h3>
-                                        <p>Figma</p>
+                                        <h3><span class="odometer" data-count="80">00</span>%</h3>
+                                        <p>Go</p>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="92">00</span>%</h3>
-                                        <p>Sketch</p>
+                                        <h3><span class="odometer" data-count="85">00</span>%</h3>
+                                        <p>PHP</p>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
                                         <h3><span class="odometer" data-count="88">00</span>%</h3>
-                                        <p>Photoshop</p>
+                                        <p>Laravel</p>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="72">00</span>%</h3>
-                                        <p>Illustrator</p>
+                                        <h3><span class="odometer" data-count="85">00</span>%</h3>
+                                        <p>MySQL</p>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="43">00</span>%</h3>
-                                        <p>WordPress</p>
+                                        <h3><span class="odometer" data-count="85">00</span>%</h3>
+                                        <p>PostgreSQL</p>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="37">00</span>%</h3>
-                                        <p>ReactJS</p>
+                                        <h3><span class="odometer" data-count="80">00</span>%</h3>
+                                        <p>Api</p>
                                     </div>
                                 </div>
                             </div>
