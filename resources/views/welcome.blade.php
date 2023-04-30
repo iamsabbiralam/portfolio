@@ -82,24 +82,6 @@
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog right sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                                <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Blog details</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="blog-single.html">Blog details right
-                                                                sidebar</a>
-                                                        </li>
-                                                        <li><a href="blog-single-left-sidebar.html">Blog details
-                                                                left
-                                                                sidebar</a></li>
-                                                        <li><a href="blog-single-fullwidth.html">Blog details
-                                                                fullwidth</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li>
                                             <a href="contact.html">Contact</a>
