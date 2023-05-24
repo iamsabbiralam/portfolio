@@ -93,7 +93,7 @@
                             <div class="col-lg-2 col-md-2 col-2">
                                 <div class="header-right">
                                     <div class="header-btn">
-                                        <a class="theme-btn" download="My Cv" target="_blank" href="https://drive.google.com/file/d/16CltbSR6gIA8-jcHzrMkAuMaLsQgzBTT/view?usp=share_link"
+                                        <a class="theme-btn" download="My Cv" target="_blank" href="https://rxresu.me/r/n1bBr_Yl"
                                             title="ImageName">
                                             <img class="hide-img" alt="ImageName" src="{{ asset('build/assets/frontend/images/cv.jpg') }}">
                                             Resume
