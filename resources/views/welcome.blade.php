@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
-    <link rel="shortcut icon" type="image/png" href="{{ asset('build/assets/frontend/images/favicon.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('storage/images/favicon.png') }}">
     <title>iamsabbiralam</title>
-    <link href="{{ asset('build/assets/frontend/css/themify-icons.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/flaticon.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/magnific-popup.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/owl.carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/owl.theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/slick.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/slick-theme.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/swiper.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/nice-select.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/owl.transitions.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/jquery.fancybox.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/css/odometer-theme-default.css') }}" rel="stylesheet">
-    <link href="{{ asset('build/assets/frontend/sass/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/themify-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/flaticon.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/magnific-popup.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/owl.theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/slick.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/slick-theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/swiper.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/nice-select.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/owl.transitions.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/jquery.fancybox.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/css/odometer-theme-default.css') }}" rel="stylesheet">
+    <link href="{{ asset('build/assets/sass/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
                     <div class="loader-line-mask">
                         <div class="loader-line"></div>
                     </div>
-                    <img src="{{ asset('build/assets/frontend/images/preloader.png') }}" alt="preloader">
+                    <img src="{{ asset('storage/images/preloader.png') }}" alt="preloader">
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                             <div class="col-lg-2 col-md-6 col-6">
                                 <div class="navbar-header">
                                     <a class="navbar-brand site-logo" href="/"><img
-                                            src="{{ asset('build/assets/frontend/images/logo.png') }}" alt="logo">Sabbir.</a>
+                                            src="{{ asset('storage/images/logo.png') }}" alt="logo">Sabbir.</a>
                                 </div>
                             </div>
                             <div class="col-lg-8 col-md-1 col-1">
@@ -72,10 +72,7 @@
                                             <a class="active" href="/">Home</a>
                                         </li>
                                         <li>
-                                            <a href="about.html">About</a>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Service</a>
+                                            <a href="#">About</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="#">Portfolio</a>
@@ -84,7 +81,7 @@
                                             <a href="#">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.html">Contact</a>
+                                            <a href="#">Contact</a>
                                         </li>
                                     </ul>
 
@@ -94,8 +91,7 @@
                                 <div class="header-right">
                                     <div class="header-btn">
                                         <a class="theme-btn" download="My Cv" target="_blank" href="https://rxresu.me/r/n1bBr_Yl"
-                                            title="ImageName">
-                                            <img class="hide-img" alt="ImageName" src="{{ asset('build/assets/frontend/images/cv.jpg') }}">
+                                            title="Resume">
                                             Resume
                                         </a>
                                     </div>
@@ -133,10 +129,10 @@
             <div class="static-hero-right">
                 <div class="static-hero-img">
                     <div class="static-hero-img-inner">
-                        <img src="{{ asset('build/assets/frontend/images/sabbir1.jpeg') }}" alt="image">
-                        <div class="icon-1 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/go-lang.png') }}" alt=""></div>
-                        <div class="icon-2 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/php.png') }}" alt=""></div>
-                        <div class="icon-3 floating-item"><img src="{{ asset('build/assets/frontend/images/icon/mysql.png') }}" alt=""></div>
+                        <img src="{{ asset('images/sabbir.jpeg') }}" alt="image">
+                        <div class="icon-1 floating-item"><img src="{{ asset('images/icon/go-lang.png') }}" alt="image"></div>
+                        <div class="icon-2 floating-item"><img src="{{ asset('images/icon/php.png') }}" alt="image"></div>
+                        <div class="icon-3 floating-item"><img src="{{ asset('images/icon/mysql.png') }}" alt="image"></div>
                         <div class="project floating-item">
                             <div class="icon">
                                 <i class="fi flaticon-verified"></i>
@@ -195,10 +191,10 @@
                 </svg>
             </div>
             <div class="line-shape-1">
-                <img src="{{ asset('build/assets/frontend/images/slider/line-1.png') }}" alt="">
+                <img src="{{ asset('images/slider/line-1.png') }}" alt="image">
             </div>
             <div class="line-shape-2">
-                <img src="{{ asset('build/assets/frontend/images/slider/line-2.png') }}" alt="">
+                <img src="{{ asset('images/slider/line-2.png') }}" alt="image">
             </div>
         </section>
         <!-- end of hero slider -->
@@ -240,13 +236,13 @@
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="88">00</span>%</h3>
+                                        <h3><span class="odometer" data-count="90">00</span>%</h3>
                                         <p>Laravel</p>
                                     </div>
                                 </div>
                                 <div class="grid">
                                     <div class="grid-inner">
-                                        <h3><span class="odometer" data-count="85">00</span>%</h3>
+                                        <h3><span class="odometer" data-count="90">00</span>%</h3>
                                         <p>MySQL</p>
                                     </div>
                                 </div>
@@ -298,173 +294,13 @@
                 </svg>
             </div>
             <div class="line-shape-1">
-                <img src="{{ asset('build/assets/frontend/images/about/shape1.png') }}" alt="">
+                <img src="{{ asset('images/about/shape1.png') }}" alt="image">
             </div>
             <div class="line-shape-2">
-                <img src="{{ asset('build/assets/frontend/images/about/shape2.png') }}" alt="">
+                <img src="{{ asset('images/about/shape2.png') }}" alt="image">
             </div>
         </div>
         <!-- end of wpo-about-area -->
-
-        <!-- start of wpo-service-area -->
-        <div class="wpo-service-area section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-12">
-                        <div class="wpo-section-title">
-                            <h2>Popular Services</h2>
-                            <p>Must explain to you how all this mistaken idea of denouncing pleasure
-                                born and give you a complete account the system</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpo-service-wrap">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="Development-tab" data-bs-toggle="tab" href="#Development" role="tab"
-                                aria-controls="Development" aria-selected="true">Development</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link active" id="Design-tab" data-bs-toggle="tab" href="#Design" role="tab"
-                                aria-controls="Design" aria-selected="false">Design</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="Marketing-tab" data-bs-toggle="tab" href="#Marketing" role="tab"
-                                aria-controls="Marketing" aria-selected="false">Marketing</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane" id="Development">
-                            <div class="row align-items-center">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-coding"></i>
-                                        </div>
-                                        <h2>Web Development</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-app-development"></i>
-                                        </div>
-                                        <h2>App Development</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-smartphone"></i>
-                                        </div>
-                                        <h2>Softwere Development</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane active" id="Design">
-                            <div class="row align-items-center">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-vector"></i>
-                                        </div>
-                                        <h2>Graphic Design</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-palette"></i>
-                                        </div>
-                                        <h2>Brand Identity</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-add"></i>
-                                        </div>
-                                        <h2>UI/UX Design</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div role="tabpanel" class="tab-pane" id="Marketing">
-                            <div class="row align-items-center">
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-social-media"></i>
-                                        </div>
-                                        <h2>Social Media Marketing</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-promotion"></i>
-                                        </div>
-                                        <h2>Digital Marketing</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                                    <div class="wpo-service-item">
-                                        <div class="icon">
-                                            <i class="fi flaticon-email-marketing"></i>
-                                        </div>
-                                        <h2>Email Marketing</h2>
-                                        <p>Explain to you how all this mistaken idea of denouncing pleasure born and
-                                            give you complete account the system.</p>
-                                        <a href="service-single.html">Learn More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ab-shape">
-                <svg width="995" height="1495" viewBox="0 0 995 1495" fill="none">
-                    <g opacity="0.3" filter="url(#filter0_f_39_4268)">
-                        <circle cx="247.5" cy="747.5" r="247.5" fill="#FFE500" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_39_4268" x="-500" y="0" width="1495" height="1495"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4267" />
-                        </filter>
-                    </defs>
-                </svg>
-            </div>
-        </div>
-        <!-- end of wpo-service-area -->
 
         <!-- start of wpo-work-area -->
         <div class="wpo-work-area section-padding">
@@ -473,44 +309,24 @@
                     <div class="col-lg-6 col-12">
                         <div class="wpo-section-title">
                             <h2>My Work Experience</h2>
-                            <p>Must explain to you how all this mistaken idea of denouncing pleasure
-                                born and give you a complete account the system</p>
                         </div>
                     </div>
                 </div>
                 <div class="wpo-work-wrap">
                     <div class="wpo-work-item">
                         <ul>
-                            <li class="date">2015 - 2016</li>
-                            <li class="logo"><img src="{{ asset('build/assets/frontend/images/work/1.png') }}" alt=""></li>
-                            <li class="position">Junior Visual Designer <span>Trapeza Group, USA.</span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
+                            <li class="date">2020 - 2020</li>
+                            <li class="logo"><img src="{{ asset('images/icon/php.png') }}" alt="logo" width="80px"></li>
+                            <li class="position">Junior Laravel Developer <span>Home2Globe, Khulna.</span></li>
+                            <li class="link"><a href="https://www.home2globe.com/" target="_blank">Go to website</a></li>
                         </ul>
                     </div>
                     <div class="wpo-work-item">
                         <ul>
-                            <li class="date">2017 - 2018</li>
-                            <li class="logo"><img src="{{ asset('build/assets/frontend/images/work/2.png') }}" alt=""></li>
-                            <li class="position">UI/UX Designer <span>Gallerie Ontario, Canada
-                                    <span>(Remote)</span></span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
-                        </ul>
-                    </div>
-                    <div class="wpo-work-item">
-                        <ul>
-                            <li class="date">2019 - 2020</li>
-                            <li class="logo"><img src="{{ asset('build/assets/frontend/images/work/3.png') }}" alt=""></li>
-                            <li class="position">Seinor UI/UX Desinger <span>Morson Hybrid, Canada</span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
-                        </ul>
-                    </div>
-                    <div class="wpo-work-item">
-                        <ul>
-                            <li class="date">2019 - <span>Present</span></li>
-                            <li class="logo"><img src="{{ asset('build/assets/frontend/images/work/4.png') }}" alt=""></li>
-                            <li class="position">Product Designer <span>Myant Inc. Etobicoke, ON
-                                    <span>(Remote)</span></span></li>
-                            <li class="link"><a href="#">Go to website</a></li>
+                            <li class="date">2021 - <span>Present</span></li>
+                            <li class="logo"><img src="{{ asset('images/icon/go-lang.png') }}" alt="logo" width="80px"></li>
+                            <li class="position">Backend Developer <span>Codemen, Khulna</span></li>
+                            <li class="link"><a href="https://www.codemen.org/" target="_blank">Go to website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -541,8 +357,6 @@
                         <div class="col-lg-4 col-12">
                             <div class="title">
                                 <h2>Recent Work.</h2>
-                                <p>Must explain to you how all this mistaken idea pleasure
-                                    born and give you a complete account.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 offset-lg-2">
@@ -555,7 +369,7 @@
                 <div class="wpo-project-wrap wpo-project-slide owl-carousel">
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('build/assets/frontend/images/project/img-1.jpg') }}" alt="">
+                            <img src="{{ asset('images/project/img-1.jpg') }}" alt="image">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Arkio - Architecture & Interior WordPress Theme</a></h2>
@@ -564,7 +378,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('build/assets/frontend/images/project/img-2.jpg') }}" alt="">
+                            <img src="{{ asset('images/project/img-2.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
@@ -573,7 +387,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('build/assets/frontend/images/project/img-3.jpg') }}" alt="">
+                            <img src="{{ asset('images/project/img-3.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Elito - Creative Portfolio HTML5 Template</a></h2>
@@ -582,7 +396,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('build/assets/frontend/images/project/img-1.jpg') }}" alt="">
+                            <img src="{{ asset('images/project/img-1.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Arkio - Architecture & Interior WordPress Theme</a></h2>
@@ -591,7 +405,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('build/assets/frontend/images/project/img-2.jpg') }}" alt="">
+                            <img src="{{ asset('images/project/img-2.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
@@ -600,7 +414,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('build/assets/frontend/images/project/img-3.jpg') }}" alt="">
+                            <img src="{{ asset('images/project/img-3.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Elito - Creative Portfolio HTML5 Template</a></h2>
@@ -625,10 +439,10 @@
                 </svg>
             </div>
             <div class="line-shape-1">
-                <img src="{{ asset('build/assets/frontend/images/project/line-1.png') }}" alt="">
+                <img src="{{ asset('images/project/line-1.png') }}" alt="">
             </div>
             <div class="line-shape-2">
-                <img src="{{ asset('build/assets/frontend/images/project/line-2.png') }}" alt="">
+                <img src="{{ asset('images/project/line-2.png') }}" alt="">
             </div>
         </div>
         <!-- end of wpo-project-area -->
@@ -643,29 +457,29 @@
                                 <div class="testimonial-left-inner">
                                     <div class="slider-for">
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('build/assets/frontend/images/testimonial/img-1.jpg') }}" alt="">
+                                            <img src="{{ asset('images/testimonial/img-1.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('build/assets/frontend/images/testimonial/img-2.jpg') }}" alt="">
+                                            <img src="{{ asset('images/testimonial/img-2.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('build/assets/frontend/images/testimonial/img-3.jpg') }}" alt="">
+                                            <img src="{{ asset('images/testimonial/img-3.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('build/assets/frontend/images/testimonial/img-4.jpg') }}" alt="">
+                                            <img src="{{ asset('images/testimonial/img-4.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('build/assets/frontend/images/testimonial/img-5.jpg') }}" alt="">
+                                            <img src="{{ asset('images/testimonial/img-5.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('build/assets/frontend/images/testimonial/img-6.jpg') }}" alt="">
+                                            <img src="{{ asset('images/testimonial/img-6.jpg') }}" alt="">
                                         </div>
                                     </div>
-                                    <div class="side-img-1"><img src="{{ asset('build/assets/frontend/images/testimonial/img-2.jpg') }}" alt=""></div>
-                                    <div class="side-img-2"><img src="{{ asset('build/assets/frontend/images/testimonial/img-3.jpg') }}" alt=""></div>
-                                    <div class="side-img-3"><img src="{{ asset('build/assets/frontend/images/testimonial/img-4.jpg') }}" alt=""></div>
-                                    <div class="side-img-4"><img src="{{ asset('build/assets/frontend/images/testimonial/img-5.jpg') }}" alt=""></div>
-                                    <div class="side-img-5"><img src="{{ asset('build/assets/frontend/images/testimonial/img-6.jpg') }}" alt=""></div>
+                                    <div class="side-img-1"><img src="{{ asset('images/testimonial/img-2.jpg') }}" alt=""></div>
+                                    <div class="side-img-2"><img src="{{ asset('images/testimonial/img-3.jpg') }}" alt=""></div>
+                                    <div class="side-img-3"><img src="{{ asset('images/testimonial/img-4.jpg') }}" alt=""></div>
+                                    <div class="side-img-4"><img src="{{ asset('images/testimonial/img-5.jpg') }}" alt=""></div>
+                                    <div class="side-img-5"><img src="{{ asset('images/testimonial/img-6.jpg') }}" alt=""></div>
                                     <div class="border-s1"></div>
                                     <div class="border-s2"></div>
                                     <div class="border-s3"></div>
@@ -790,173 +604,12 @@
                 </div>
             </div>
             <div class="left-shape"></div>
-            <div class="right-shape"><img src="{{ asset('build/assets/frontend/images/testimonial/shape.png') }}" alt=""></div>
+            <div class="right-shape"><img src="{{ asset('images/testimonial/shape.png') }}" alt=""></div>
         </section>
         <!--End wpo-testimonial-section-->
 
-        <!-- start wpo-pricing-section -->
-        <section class="wpo-pricing-section section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-5">
-                            <div class="wpo-section-title">
-                                <h2>Pricing Plan</h2>
-                                <p>Must explain to you how all this mistaken idea pleasure
-                                    born and give you a complete account.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpo-pricing-wrap">
-                    <div class="row">
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="pricing-thumb">
-                                        <span>Basic</span>
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <h2>$120<span> / per month</span></h2>
-                                        <p>Determine the Best Pricing Strategy For Your Business.</p>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <ul>
-                                            <li>Softwere Development</li>
-                                            <li>Web Development</li>
-                                            <li>Digital Marketing</li>
-                                            <li>Graphic Design</li>
-                                            <li>24/Support</li>
-                                        </ul>
-                                        <a href="pricing.html">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="pricing-thumb">
-                                        <span>Premium</span>
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <h2>$210<span> / per month</span></h2>
-                                        <p>Determine the Best Pricing Strategy For Your Business.</p>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <ul>
-                                            <li>Softwere Development</li>
-                                            <li>Web Development</li>
-                                            <li>Digital Marketing</li>
-                                            <li>Graphic Design</li>
-                                            <li>24/Support</li>
-                                        </ul>
-                                        <a href="pricing.html">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="pricing-thumb">
-                                        <span>Advanced</span>
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <h2>$373<span> / per month</span></h2>
-                                        <p>Determine the Best Pricing Strategy For Your Business.</p>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <ul>
-                                            <li>Softwere Development</li>
-                                            <li>Web Development</li>
-                                            <li>Digital Marketing</li>
-                                            <li>Graphic Design</li>
-                                            <li>24/Support</li>
-                                        </ul>
-                                        <a href="pricing.html">CHOOSE PLAN</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-            <div class="shape-p">
-                <svg width="1500" height="1500" viewBox="0 0 1500 1500" fill="none">
-                    <g opacity="0.45" filter="url(#filter0_f_39_4213)">
-                        <circle cx="750" cy="750" r="200" />
-                    </g>
-                    <defs>
-                        <filter id="filter0_f_39_4213" x="0" y="0" width="1500" height="1500"
-                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                            <feGaussianBlur stdDeviation="275" result="effect1_foregroundBlur_39_4212" />
-                        </filter>
-                    </defs>
-                </svg>
-            </div>
-        </section>
-        <!-- end wpo-pricing-section -->
-
         <!-- start of wpo-blog-section -->
         <section class="wpo-blog-section section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5">
-                        <div class="wpo-section-title">
-                            <h2>Latest News</h2>
-                            <p>Must explain to you how all this mistaken idea pleasure
-                                born and give you a complete account.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpo-blog-wrap wpo-blog-slide owl-carousel">
-                    <div class="wpo-blog-item">
-                        <div class="wpo-blog-img">
-                            <img src="{{ asset('build/assets/frontend/images/blog/img-1.jpg') }}" alt="">
-                        </div>
-                        <div class="wpo-blog-text">
-                            <ul>
-                                <li>January 02, 2022</li>
-                            </ul>
-                            <h2><a href="blog-single.html">Have evolved over the years sometimes accident.</a></h2>
-                            <a class="details" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div>
-                    <div class="wpo-blog-item">
-                        <div class="wpo-blog-img">
-                            <img src="{{ asset('build/assets/frontend/images/blog/img-2.jpg') }}" alt="">
-                        </div>
-                        <div class="wpo-blog-text">
-                            <ul>
-                                <li>January 03, 2022</li>
-                            </ul>
-                            <h2><a href="blog-single.html"> The Internet tend to repeat predefined chunks.</a></h2>
-                            <a class="details" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div>
-                    <div class="wpo-blog-item">
-                        <div class="wpo-blog-img">
-                            <img src="{{ asset('build/assets/frontend/images/blog/img-3.jpg') }}" alt="">
-                        </div>
-                        <div class="wpo-blog-text">
-                            <ul>
-                                <li>January 05, 2022</li>
-                            </ul>
-                            <h2><a href="blog-single.html">The standard chunk of used since the interested.</a></h2>
-                            <a class="details" href="blog-single.html">Post Details</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="shadow-shape">
                 <svg width="1319" height="1567" viewBox="0 0 1319 1567" fill="none">
                     <g filter="url(#filter0_f_39_3832)">
@@ -1000,18 +653,17 @@
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="widget about-widget">
                                 <div class="logo widget-title">
-                                    <a class="site-logo" href="index.html"><img src="{{ asset('build/assets/frontend/images/logo.png') }}"
-                                            alt="">Elito.</a>
+                                    <a class="site-logo" href="/"><img src="{{ asset('images/logo.png') }}"
+                                            alt="logo">Sabbir.</a>
                                 </div>
-                                <p>Welcome and open yourself to your truest love this year with us! With the Release
-                                    Process</p>
+                                <p>You know who i am.</p>
                                 <div class="social-icons">
                                     <ul>
-                                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                        <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                        <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="ti-pinterest"></i></a></li>
-                                        <li><a href="#"><i class="ti-vimeo-alt"></i></a></li>
+                                        <li><a href="https://www.facebook.com/iamsabbiralam/" target="_blank"><i class="ti-facebook"></i></a></li>
+                                        <li><a href="https://twitter.com/iamsabbiralam" target="blank"><i class="ti-twitter-alt"></i></a></li>
+                                        <li><a href="https://www.instagram.com/iamsabbiralam/" target="_blank"><i class="ti-instagram"></i></a></li>
+                                        <li><a href="https://bd.linkedin.com/in/iamsabbiralam" target="_blank"><i class="ti-linkedin"></i></a></li>
+                                        <li><a href="https://github.com/iamsabbiralam" target="_blank"><i class="ti-github"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1081,28 +733,26 @@
                 <div class="container">
                     <div class="row">
                         <div class="separator"></div>
-                        <p class="copyright">Copyright &copy; 2022 Elito. All rights reserved.</p>
+                        <p class="copyright">&copy; <?php echo date("Y"); ?> iamsabbiralam. All rights reserved.</p>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- end wpo-site-footer -->
-
-
     </div>
     <!-- end of page-wrapper -->
 
     <!-- All JavaScript files
     ================================================== -->
-    <script src="{{ asset('build/assets/frontend/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('build/assets/frontend/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('build/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('build/assets/js/bootstrap.bundle.min.js') }}"></script>
     <!-- Plugins for this template -->
-    <script src="{{ asset('build/assets/frontend/js/modernizr.custom.js') }}"></script>
-    <script src="{{ asset('build/assets/frontend/js/jquery.dlmenu.js') }}"></script>
-    <script src="{{ asset('build/assets/frontend/js/jquery-plugin-collection.js') }}"></script>
+    <script src="{{ asset('build/assets/js/modernizr.custom.js') }}"></script>
+    <script src="{{ asset('build/assets/js/jquery.dlmenu.js') }}"></script>
+    <script src="{{ asset('build/assets/js/jquery-plugin-collection.js') }}"></script>
     <!-- Moving Animation -->
-    <script src="{{ asset('build/assets/frontend/js/moving-animation.js') }}"></script>
+    <script src="{{ asset('build/assets/js/moving-animation.js') }}"></script>
     <!-- Custom script for this template -->
-    <script src="{{ asset('build/assets/frontend/js/script.js') }}"></script>
+    <script src="{{ asset('build/assets/js/script.js') }}"></script>
 </body>
 </html>
