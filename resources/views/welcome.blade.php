@@ -130,9 +130,9 @@
                 <div class="static-hero-img">
                     <div class="static-hero-img-inner">
                         <img src="{{ asset('images/sabbir.jpeg') }}" alt="image">
-                        <div class="icon-1 floating-item"><img src="{{ asset('images/icon/go-lang.png') }}" alt="image"></div>
-                        <div class="icon-2 floating-item"><img src="{{ asset('images/icon/php.png') }}" alt="image"></div>
-                        <div class="icon-3 floating-item"><img src="{{ asset('images/icon/mysql.png') }}" alt="image"></div>
+                        <div class="icon-1 floating-item"><img src="{{ asset('storage/images/icon/go-lang.png') }}" alt="image"></div>
+                        <div class="icon-2 floating-item"><img src="{{ asset('storage/images/icon/php.png') }}" alt="image"></div>
+                        <div class="icon-3 floating-item"><img src="{{ asset('storage/images/icon/mysql.png') }}" alt="image"></div>
                         <div class="project floating-item">
                             <div class="icon">
                                 <i class="fi flaticon-verified"></i>
@@ -191,10 +191,10 @@
                 </svg>
             </div>
             <div class="line-shape-1">
-                <img src="{{ asset('images/slider/line-1.png') }}" alt="image">
+                <img src="{{ asset('storage/images/slider/line-1.png') }}" alt="image">
             </div>
             <div class="line-shape-2">
-                <img src="{{ asset('images/slider/line-2.png') }}" alt="image">
+                <img src="{{ asset('storage/images/slider/line-2.png') }}" alt="image">
             </div>
         </section>
         <!-- end of hero slider -->
@@ -294,10 +294,10 @@
                 </svg>
             </div>
             <div class="line-shape-1">
-                <img src="{{ asset('images/about/shape1.png') }}" alt="image">
+                <img src="{{ asset('storage/images/about/shape1.png') }}" alt="image">
             </div>
             <div class="line-shape-2">
-                <img src="{{ asset('images/about/shape2.png') }}" alt="image">
+                <img src="{{ asset('storage/images/about/shape2.png') }}" alt="image">
             </div>
         </div>
         <!-- end of wpo-about-area -->
@@ -316,7 +316,7 @@
                     <div class="wpo-work-item">
                         <ul>
                             <li class="date">2020 - 2020</li>
-                            <li class="logo"><img src="{{ asset('images/icon/php.png') }}" alt="logo" width="80px"></li>
+                            <li class="logo"><img src="{{ asset('storage/images/icon/php.png') }}" alt="logo" width="80px"></li>
                             <li class="position">Junior Laravel Developer <span>Home2Globe, Khulna.</span></li>
                             <li class="link"><a href="https://www.home2globe.com/" target="_blank">Go to website</a></li>
                         </ul>
@@ -324,7 +324,7 @@
                     <div class="wpo-work-item">
                         <ul>
                             <li class="date">2021 - <span>Present</span></li>
-                            <li class="logo"><img src="{{ asset('images/icon/go-lang.png') }}" alt="logo" width="80px"></li>
+                            <li class="logo"><img src="{{ asset('storage/images/icon/go-lang.png') }}" alt="logo" width="80px"></li>
                             <li class="position">Backend Developer <span>Codemen, Khulna</span></li>
                             <li class="link"><a href="https://www.codemen.org/" target="_blank">Go to website</a></li>
                         </ul>
@@ -369,7 +369,7 @@
                 <div class="wpo-project-wrap wpo-project-slide owl-carousel">
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('images/project/img-1.jpg') }}" alt="image">
+                            <img src="{{ asset('storage/images/project/img-1.jpg') }}" alt="image">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Arkio - Architecture & Interior WordPress Theme</a></h2>
@@ -378,7 +378,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('images/project/img-2.jpg') }}" alt="">
+                            <img src="{{ asset('storage/images/project/img-2.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
@@ -387,7 +387,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('images/project/img-3.jpg') }}" alt="">
+                            <img src="{{ asset('storage/images/project/img-3.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Elito - Creative Portfolio HTML5 Template</a></h2>
@@ -396,7 +396,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('images/project/img-1.jpg') }}" alt="">
+                            <img src="{{ asset('storage/images/project/img-1.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Arkio - Architecture & Interior WordPress Theme</a></h2>
@@ -405,7 +405,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('images/project/img-2.jpg') }}" alt="">
+                            <img src="{{ asset('storage/images/project/img-2.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
@@ -414,7 +414,7 @@
                     </div>
                     <div class="wpo-project-item">
                         <div class="wpo-project-img">
-                            <img src="{{ asset('images/project/img-3.jpg') }}" alt="">
+                            <img src="{{ asset('storage/images/project/img-3.jpg') }}" alt="">
                         </div>
                         <div class="wpo-project-text">
                             <h2><a href="portfolio-single.html">Elito - Creative Portfolio HTML5 Template</a></h2>
@@ -439,10 +439,10 @@
                 </svg>
             </div>
             <div class="line-shape-1">
-                <img src="{{ asset('images/project/line-1.png') }}" alt="">
+                <img src="{{ asset('storage/images/project/line-1.png') }}" alt="">
             </div>
             <div class="line-shape-2">
-                <img src="{{ asset('images/project/line-2.png') }}" alt="">
+                <img src="{{ asset('storage/images/project/line-2.png') }}" alt="">
             </div>
         </div>
         <!-- end of wpo-project-area -->
@@ -457,29 +457,29 @@
                                 <div class="testimonial-left-inner">
                                     <div class="slider-for">
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('images/testimonial/img-1.jpg') }}" alt="">
+                                            <img src="{{ asset('storage/images/testimonial/img-1.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('images/testimonial/img-2.jpg') }}" alt="">
+                                            <img src="{{ asset('storage/images/testimonial/img-2.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('images/testimonial/img-3.jpg') }}" alt="">
+                                            <img src="{{ asset('storage/images/testimonial/img-3.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('images/testimonial/img-4.jpg') }}" alt="">
+                                            <img src="{{ asset('storage/images/testimonial/img-4.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('images/testimonial/img-5.jpg') }}" alt="">
+                                            <img src="{{ asset('storage/images/testimonial/img-5.jpg') }}" alt="">
                                         </div>
                                         <div class="testimonial-img">
-                                            <img src="{{ asset('images/testimonial/img-6.jpg') }}" alt="">
+                                            <img src="{{ asset('storage/images/testimonial/img-6.jpg') }}" alt="">
                                         </div>
                                     </div>
-                                    <div class="side-img-1"><img src="{{ asset('images/testimonial/img-2.jpg') }}" alt=""></div>
-                                    <div class="side-img-2"><img src="{{ asset('images/testimonial/img-3.jpg') }}" alt=""></div>
-                                    <div class="side-img-3"><img src="{{ asset('images/testimonial/img-4.jpg') }}" alt=""></div>
-                                    <div class="side-img-4"><img src="{{ asset('images/testimonial/img-5.jpg') }}" alt=""></div>
-                                    <div class="side-img-5"><img src="{{ asset('images/testimonial/img-6.jpg') }}" alt=""></div>
+                                    <div class="side-img-1"><img src="{{ asset('storage/images/testimonial/img-2.jpg') }}" alt=""></div>
+                                    <div class="side-img-2"><img src="{{ asset('storage/images/testimonial/img-3.jpg') }}" alt=""></div>
+                                    <div class="side-img-3"><img src="{{ asset('storage/images/testimonial/img-4.jpg') }}" alt=""></div>
+                                    <div class="side-img-4"><img src="{{ asset('storage/images/testimonial/img-5.jpg') }}" alt=""></div>
+                                    <div class="side-img-5"><img src="{{ asset('storage/images/testimonial/img-6.jpg') }}" alt=""></div>
                                     <div class="border-s1"></div>
                                     <div class="border-s2"></div>
                                     <div class="border-s3"></div>
@@ -604,7 +604,7 @@
                 </div>
             </div>
             <div class="left-shape"></div>
-            <div class="right-shape"><img src="{{ asset('images/testimonial/shape.png') }}" alt=""></div>
+            <div class="right-shape"><img src="{{ asset('storage/images/testimonial/shape.png') }}" alt=""></div>
         </section>
         <!--End wpo-testimonial-section-->
 
@@ -653,7 +653,7 @@
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="widget about-widget">
                                 <div class="logo widget-title">
-                                    <a class="site-logo" href="/"><img src="{{ asset('images/logo.png') }}"
+                                    <a class="site-logo" href="/"><img src="{{ asset('storage/images/logo.png') }}"
                                             alt="logo">Sabbir.</a>
                                 </div>
                                 <p>You know who i am.</p>
