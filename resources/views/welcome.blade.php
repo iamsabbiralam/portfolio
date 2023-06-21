@@ -129,7 +129,7 @@
             <div class="static-hero-right">
                 <div class="static-hero-img">
                     <div class="static-hero-img-inner">
-                        <img src="{{ asset('images/sabbir.jpeg') }}" alt="image">
+                        <img src="{{ asset('storage/images/sabbir.jpeg') }}" alt="image">
                         <div class="icon-1 floating-item"><img src="{{ asset('storage/images/icon/go-lang.png') }}" alt="image"></div>
                         <div class="icon-2 floating-item"><img src="{{ asset('storage/images/icon/php.png') }}" alt="image"></div>
                         <div class="icon-3 floating-item"><img src="{{ asset('storage/images/icon/mysql.png') }}" alt="image"></div>
