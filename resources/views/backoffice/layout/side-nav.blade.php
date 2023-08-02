@@ -26,11 +26,11 @@
                         </a>
                         <ul>
                             <li>
-                                <a href="app-calendar.html"
-                                    class="pl-14 pr-4 py-2 block text-[13.5px] font-medium text-gray-700 transition-all duration-150 ease-linear hover:text-violet-500 dark:text-gray-300 dark:active:text-white dark:hover:text-white">Calendar</a>
+                                <a href="{{ route("work_experiences.create") }}"
+                                    class="pl-14 pr-4 py-2 block text-[13.5px] font-medium text-gray-700 transition-all duration-150 ease-linear hover:text-violet-500 dark:text-gray-300 dark:active:text-white dark:hover:text-white">Work Experience</a>
                             </li>
                             <li>
-                                <a href="app-chat.html"
+                                <a href="app-chat.html"rk
                                     class="pl-14 pr-4 py-2 block text-[13.5px] font-medium text-gray-700 transition-all duration-150 ease-linear hover:text-violet-500 dark:text-gray-300 dark:active:text-white dark:hover:text-white">Chat</a>
                             </li>
 
