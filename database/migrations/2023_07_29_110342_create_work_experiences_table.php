@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('work_experiences', function (Blueprint $table) {
+        Schema::create('work-experiences', function (Blueprint $table) {
             $table->id();
             $table->dateTime('start_date')->nullable();
             $table->dateTime('end_date')->nullable();
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('work_experiences');
+        Schema::dropIfExists('work-experiences');
     }
 };

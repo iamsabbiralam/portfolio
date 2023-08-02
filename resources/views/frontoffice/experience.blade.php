@@ -10,22 +10,18 @@
         </div>
         <div class="wpo-work-wrap">
             <div class="wpo-work-item">
-                <ul>
-                    <li class="date">2020 - 2020</li>
-                    <li class="logo"><img src="{{ asset('storage/images/icon/php.png') }}" alt="logo"
-                            width="80px"></li>
-                    <li class="position">Junior Laravel Developer <span>Home2Globe, Khulna.</span></li>
-                    <li class="link"><a href="https://www.home2globe.com/" target="_blank">Go to website</a></li>
-                </ul>
-            </div>
-            <div class="wpo-work-item">
-                <ul>
-                    <li class="date">2021 - <span>Present</span></li>
-                    <li class="logo"><img src="{{ asset('storage/images/icon/go-lang.png') }}" alt="logo"
-                            width="80px"></li>
-                    <li class="position">Backend Developer <span>Codemen, Khulna</span></li>
-                    <li class="link"><a href="https://www.codemen.org/" target="_blank">Go to website</a></li>
-                </ul>
+                @foreach ($workExperiences as $workExperience)
+                    <ul>
+                        <li class="date">{{ $workExperience->start_date->format('d-m-Y') }} -
+                            {{ $workExperience->end_date->format('d-m-Y') }}</li>
+                        <li class="logo"><img src="{{ asset($workExperience->logo) }}" alt="logo" width="80px">
+                        </li>
+                        <li class="position">{{ $workExperience->designation }}
+                            <span>{{ $workExperience->company_name }}, {{ $workExperience->city_name }}.</span></li>
+                        <li class="link"><a href="{{ $workExperience->website }}/" target="_blank">Go to website</a>
+                        </li>
+                    </ul>
+                @endforeach
             </div>
         </div>
     </div>

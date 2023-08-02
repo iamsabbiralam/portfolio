@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\WorkExperience;
+use Illuminate\Http\Request;
+
+class FrontendController extends Controller
+{
+    public function index()
+    {
+        $data['title'] = __("iamsabbiralam");
+        $data['workExperiences'] = WorkExperience::orderByDESC('created_at')->get();
+
+        return view('welcome', $data);
+    }
+
+}
