@@ -9,28 +9,23 @@ use App\Http\Requests\UpdateWorkExperienceRequest;
 
 class WorkExperienceController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
-        //
+        $data['title'] = __("Work Experiences");
+        $data['workExperiences'] = WorkExperience::orderByDESC('created_at')->paginate();
+
+        return view('backoffice.work-experiences.index', $data);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
-        return view("backoffice.work_experiences.create");
+        $data['title'] = __("Create Work Experience");
+
+        return view("backoffice.work-experiences.create", $data);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(StoreWorkExperienceRequest $request)
     {
-        // dd($request->input());
         $storeDate = [
             'start_date' => $request->get('start_date'),
             'end_date' => $request->get('end_date'),
@@ -39,58 +34,80 @@ class WorkExperienceController extends Controller
             'city_name' => $request->get('city_name'),
             'website' => $request->get('website'),
         ];
-    
+
         if ($request->hasFile('logo')) {
-            $fileName = $request->file('logo') . time();
-            $articleFileName = $fileName . '.' . $request->file('logo')->getClientOriginalExtension();
+            $fileName = $request->get('company_name');
+            $logoName = $fileName . '.' . $request->file('logo')->getClientOriginalExtension();
             $storeDate['logo'] = Storage::putFileAs(
                 '/logos',
                 $request->file('logo'),
-                $articleFileName
+                $logoName
             );
         }
-        // dd($storeDate);
 
-        
-
-        if(WorkExperience::create($storeDate)){
+        if (WorkExperience::create($storeDate)) {
             return redirect()
-                ->route('work_experiences.index')
-                ->with('SUCCESS','Work Experience created successfully.');
+                ->route('work-experiences.index')
+                ->with('SUCCESS', 'Work Experience created successfully.');
         }
+
+        return redirect()->back()->with('ERROR', 'Something went wrong.');
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(WorkExperience $workExperience)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
     public function edit(WorkExperience $workExperience)
     {
-        $data['work_experience'] = $workExperience;
+        $data['title'] = __("Edit Work Experience");
+        $data['workExperience'] = $workExperience;
 
-        return view('backoffice.work_experiences.edit', $data);
+        return view('backoffice.work-experiences.edit', $data);
     }
 
-    /**
-     * Update the specified resource in storage.
-     */
     public function update(UpdateWorkExperienceRequest $request, WorkExperience $workExperience)
     {
-        //
+        $updateDate = [
+            'start_date' => $request->get('start_date'),
+            'end_date' => $request->get('end_date'),
+            'designation' => $request->get('designation'),
+            'company_name' => $request->get('company_name'),
+            'city_name' => $request->get('city_name'),
+            'website' => $request->get('website'),
+        ];
+
+        if ($request->hasFile('logo')) {
+            if ($workExperience->logo) {
+                Storage::delete($workExperience->logo);
+            }
+
+            $fileName = $request->get('company_name');
+            $logoName = $fileName . '.' . $request->file('logo')->getClientOriginalExtension();
+            $updateDate['logo'] = Storage::putFileAs(
+                '/logos',
+                $request->file('logo'),
+                $logoName
+            );
+        }
+
+        if ($workExperience->update($updateDate)) {
+            return redirect()
+                ->route('work-experiences.index')
+                ->with('SUCCESS', 'Work Experience updated successfully.');
+        }
+
+        return redirect()->back()->with('ERROR', 'Something went wrong.');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     */
     public function destroy(WorkExperience $workExperience)
     {
-        //
+        if ($workExperience->logo) {
+            Storage::delete($workExperience->logo);
+        }
+
+        if ($workExperience->delete()) {
+            return redirect()
+                ->route('work-experiences.index')
+                ->with('SUCCESS', 'Work Experience deleted successfully.');
+        }
+
+        return redirect()->back()->with('ERROR', 'Something went wrong.');
     }
 }

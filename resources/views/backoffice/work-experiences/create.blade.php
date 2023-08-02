@@ -1,8 +1,7 @@
 @include('backoffice.layout.header')
 @include('backoffice.layout.top-nav')
 @include('backoffice.layout.side-nav')
-@include('backoffice.layout.footer')
-<form action="{{ route("work_experiences.store") }}" method="POST" enctype="multipart/form-data">
+<form action="{{ route("work-experiences.store") }}" method="POST" enctype="multipart/form-data">
     @csrf
     <div class="main-content">
         <div class="page-content dark:bg-zinc-700">
@@ -85,3 +84,4 @@
         </div>
     </div>
 </form>
+@include('backoffice.layout.footer')
