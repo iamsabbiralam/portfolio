@@ -55,8 +55,8 @@
                                             Date</label>
                                         <input
                                             class="w-full rounded border-gray-100 placeholder:text-sm focus:border focus:border-violet-500 focus:ring-0 dark:bg-zinc-700/50 dark:border-zinc-600 dark:text-zinc-100/60"
-                                            type="date" name="start_date" value="{{ $workExperience->start_date }}"
-                                            id="example-date-input">
+                                            type="text" name="start_date" value="{{ $workExperience->start_date }}"
+                                            id="example-text-input">
                                     </div>
                                     <div class="mb-4">
                                         <label for="example-text-input"
@@ -99,8 +99,8 @@
                                             Date</label>
                                         <input
                                             class="w-full rounded border-gray-100 placeholder:text-sm focus:border focus:border-violet-500 focus:ring-0 dark:bg-zinc-700/50 dark:border-zinc-600 dark:text-zinc-100/60"
-                                            type="date" name="end_date" value="{{ $workExperience->end_date }}"
-                                            id="example-date-input">
+                                            type="text" name="end_date" value="{{ $workExperience->end_date }}"
+                                            id="example-text-input">
                                     </div>
                                     <div class="mb-4">
                                         <label for="example-logo-input"
