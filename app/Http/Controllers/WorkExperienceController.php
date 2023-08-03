@@ -39,7 +39,7 @@ class WorkExperienceController extends Controller
             $fileName = $request->get('company_name');
             $logoName = $fileName . '.' . $request->file('logo')->getClientOriginalExtension();
             $storeDate['logo'] = Storage::putFileAs(
-                '/logos',
+                'images/experience',
                 $request->file('logo'),
                 $logoName
             );
@@ -81,7 +81,7 @@ class WorkExperienceController extends Controller
             $fileName = $request->get('company_name');
             $logoName = $fileName . '.' . $request->file('logo')->getClientOriginalExtension();
             $updateDate['logo'] = Storage::putFileAs(
-                '/logos',
+                'images/experience',
                 $request->file('logo'),
                 $logoName
             );
