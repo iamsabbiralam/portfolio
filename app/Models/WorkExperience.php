@@ -19,8 +19,4 @@ class WorkExperience extends Model
         'website',
     ];
 
-    protected $casts = [
-        'start_date' => 'datetime',
-        'end_date' => 'datetime',
-    ];
 }

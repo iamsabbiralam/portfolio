@@ -42,7 +42,7 @@
                                 <div class="col-span-12 lg:col-span-6">
                                     <div class="mb-4">
                                         <label for="example-text-input" class="block font-medium text-gray-700 dark:text-gray-100 mb-2">Start Date</label>
-                                        <input class="w-full rounded border-gray-100 placeholder:text-sm focus:border focus:border-violet-500 focus:ring-0 dark:bg-zinc-700/50 dark:border-zinc-600 dark:text-zinc-100/60" type="date" name="start_date" id="example-date-input">
+                                        <input class="w-full rounded border-gray-100 placeholder:text-sm focus:border focus:border-violet-500 focus:ring-0 dark:bg-zinc-700/50 dark:border-zinc-600 dark:text-zinc-100/60" type="text" name="start_date" id="example-text-input">
                                     </div>
                                     <div class="mb-4">
                                         <label for="example-text-input" class="block font-medium text-gray-700 dark:text-gray-100 mb-2">Designation</label>
@@ -64,7 +64,7 @@
                                 <div class="col-span-12 lg:col-span-6">
                                     <div class="mb-4">
                                         <label for="example-text-input" class="block font-medium text-gray-700 dark:text-gray-100 mb-2">End Date</label>
-                                        <input class="w-full rounded border-gray-100 placeholder:text-sm focus:border focus:border-violet-500 focus:ring-0 dark:bg-zinc-700/50 dark:border-zinc-600 dark:text-zinc-100/60" type="date" name="end_date" id="example-date-input">
+                                        <input class="w-full rounded border-gray-100 placeholder:text-sm focus:border focus:border-violet-500 focus:ring-0 dark:bg-zinc-700/50 dark:border-zinc-600 dark:text-zinc-100/60" type="text" name="end_date" id="example-text-input">
                                     </div>
                                     <div class="mb-4">
                                         <label for="example-logo-input" class="block font-medium text-gray-700 dark:text-zinc-100 mb-2">Logo</label>

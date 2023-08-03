@@ -12,8 +12,8 @@
             <div class="wpo-work-item">
                 @foreach ($workExperiences as $workExperience)
                     <ul>
-                        <li class="date">{{ $workExperience->start_date->format('d-m-Y') }} -
-                            {{ $workExperience->end_date->format('d-m-Y') }}</li>
+                        <li class="date">{{ $workExperience->start_date}} -
+                            {{ $workExperience->end_date}}</li>
                         <li class="logo"><img src="{{ asset($workExperience->logo) }}" alt="logo" width="80px">
                         </li>
                         <li class="position">{{ $workExperience->designation }}
