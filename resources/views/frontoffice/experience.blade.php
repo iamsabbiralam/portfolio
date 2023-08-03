@@ -9,20 +9,21 @@
             </div>
         </div>
         <div class="wpo-work-wrap">
-            <div class="wpo-work-item">
-                @foreach ($workExperiences as $workExperience)
+            @foreach ($workExperiences as $workExperience)
+                <div class="wpo-work-item">
                     <ul>
-                        <li class="date">{{ $workExperience->start_date}} -
-                            {{ $workExperience->end_date}}</li>
-                        <li class="logo"><img src="{{ asset($workExperience->logo) }}" alt="logo" width="80px">
+                        <li class="date">{{ $workExperience->start_date }} -
+                            {{ $workExperience->end_date }}</li>
+                        <li class="logo"><img class="rounded-circle shadow-4-strong" src="{{ asset($workExperience->logo) }}" alt="logo" width="80px">
                         </li>
                         <li class="position">{{ $workExperience->designation }}
-                            <span>{{ $workExperience->company_name }}, {{ $workExperience->city_name }}.</span></li>
-                        <li class="link"><a href="{{ $workExperience->website }}/" target="_blank">Go to website</a>
+                            <span>{{ $workExperience->company_name }}, {{ $workExperience->city_name }}.</span>
+                        </li>
+                        <li class="link"><a href="{{ $workExperience->website }}" target="_blank">Go to website</a>
                         </li>
                     </ul>
-                @endforeach
-            </div>
+                </div>
+            @endforeach
         </div>
     </div>
     <div class="shape-wk">

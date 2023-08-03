@@ -3,7 +3,6 @@
 @include('frontoffice.details')
 @include('frontoffice.experience')
 @include('frontoffice.work')
-@include('frontoffice.testimonial')
 @include('frontoffice.blog')
 @include('frontoffice.footer')
 @include('frontoffice.script')
