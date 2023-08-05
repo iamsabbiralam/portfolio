@@ -16,60 +16,17 @@
             </div>
         </div>
         <div class="wpo-project-wrap wpo-project-slide owl-carousel">
+            @foreach ($recentWorks as $recentWork)
             <div class="wpo-project-item">
                 <div class="wpo-project-img">
-                    <img src="{{ asset('storage/images/project/img-1.jpg') }}" alt="image">
+                    <img  src="{{ asset($recentWork->thumbnail) }}" alt="image" width="80px">
                 </div>
                 <div class="wpo-project-text">
-                    <h2><a href="portfolio-single.html">Arkio - Architecture & Interior WordPress Theme</a></h2>
-                    <span>Architecture / Business</span>
+                    <h2><a href="portfolio-single.html">{{ $recentWork->title }}</a></h2>
+                    <span>{{ $recentWork->description }}</span>
                 </div>
             </div>
-            <div class="wpo-project-item">
-                <div class="wpo-project-img">
-                    <img src="{{ asset('storage/images/project/img-2.jpg') }}" alt="">
-                </div>
-                <div class="wpo-project-text">
-                    <h2><a href="portfolio-single.html">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
-                    <span>Web Design</span>
-                </div>
-            </div>
-            <div class="wpo-project-item">
-                <div class="wpo-project-img">
-                    <img src="{{ asset('storage/images/project/img-3.jpg') }}" alt="">
-                </div>
-                <div class="wpo-project-text">
-                    <h2><a href="portfolio-single.html">Elito - Creative Portfolio HTML5 Template</a></h2>
-                    <span>Website / Creative</span>
-                </div>
-            </div>
-            <div class="wpo-project-item">
-                <div class="wpo-project-img">
-                    <img src="{{ asset('storage/images/project/img-1.jpg') }}" alt="">
-                </div>
-                <div class="wpo-project-text">
-                    <h2><a href="portfolio-single.html">Arkio - Architecture & Interior WordPress Theme</a></h2>
-                    <span>Architecture / Business</span>
-                </div>
-            </div>
-            <div class="wpo-project-item">
-                <div class="wpo-project-img">
-                    <img src="{{ asset('storage/images/project/img-2.jpg') }}" alt="">
-                </div>
-                <div class="wpo-project-text">
-                    <h2><a href="portfolio-single.html">Follio - Multipurpose Portfolio HTML5 Template</a></h2>
-                    <span>Web Design</span>
-                </div>
-            </div>
-            <div class="wpo-project-item">
-                <div class="wpo-project-img">
-                    <img src="{{ asset('storage/images/project/img-3.jpg') }}" alt="">
-                </div>
-                <div class="wpo-project-text">
-                    <h2><a href="portfolio-single.html">Elito - Creative Portfolio HTML5 Template</a></h2>
-                    <span>Website / Creative</span>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     <div class="shape-p">
