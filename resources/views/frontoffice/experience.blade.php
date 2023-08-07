@@ -14,7 +14,7 @@
                     <ul>
                         <li class="date">{{ $workExperience->start_date }} -
                             {{ $workExperience->end_date }}</li>
-                        <li class="logo"><img class="rounded-circle shadow-4-strong" src="{{ asset($workExperience->logo) }}" alt="logo" width="80px">
+                        <li class="logo"><img class="rounded-circle shadow-4-strong" src="{{ asset('storage/'.$workExperience->logo) }}" alt="logo" width="80px">
                         </li>
                         <li class="position">{{ $workExperience->designation }}
                             <span>{{ $workExperience->company_name }}, {{ $workExperience->city_name }}.</span>
