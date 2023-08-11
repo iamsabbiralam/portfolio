@@ -111,7 +111,7 @@
                                                 {{ $recentWork->duration }}
                                             </td>
                                             <td class="px-6 py-3.5 dark:text-zinc-100">
-                                                {{ $recentWork->completion_date }}
+                                                {{ $recentWork->completion_date->format('Y-m-d') }}
                                             </td>
                                             <td class="px-6 py-3.5 dark:text-zinc-100">
                                                 <img @if ($recentWork->cover_image) src="{{ asset($recentWork->cover_image) }}"
@@ -137,11 +137,6 @@
                                                             <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 dark:text-gray-100 hover:bg-gray-50/50 dark:hover:bg-zinc-600/50"
                                                                 href="{{ route('recent-works.edit' ,$recentWork->id ) }}"><i
                                                                     class="fas fa-light fa-pen-to-square px-1"></i>{{ __('Edit') }}</a>
-                                                        </li>
-                                                        <li>
-                                                            <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 dark:text-gray-100 hover:bg-gray-50/50 dark:hover:bg-zinc-600/50"
-                                                                href="{{ route('recent-works.show' ,$recentWork->id ) }}"><i
-                                                                    class="fas fa-light fa-pen-to-square px-1"></i>{{ __('Show') }}</a>
                                                         </li>
                                                         <li>
                                                             <form method="POST"
