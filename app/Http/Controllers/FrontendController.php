@@ -17,4 +17,12 @@ class FrontendController extends Controller
         return view('welcome', $data);
     }
 
+    public function portfolio($id)
+    {
+        $data['title'] = 'Single portfolio';
+        $data['portfolio'] = RecentWork::where('id', $id)->first();
+
+        return view('frontoffice.portfolio.show', $data);
+    }
+
 }

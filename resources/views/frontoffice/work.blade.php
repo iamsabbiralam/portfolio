@@ -17,15 +17,15 @@
         </div>
         <div class="wpo-project-wrap wpo-project-slide owl-carousel">
             @foreach ($recentWorks as $recentWork)
-            <div class="wpo-project-item">
-                <div class="wpo-project-img">
-                    <img  src="{{ asset($recentWork->thumbnail) }}" alt="image" width="80px">
+                <div class="wpo-project-item">
+                    <div class="wpo-project-img">
+                        <img src="{{ asset('storage/' . $recentWork->thumbnail) }}" alt="">
+                    </div>
+                    <div class="wpo-project-text">
+                        <h2><a href="{{ route('portfolio', $recentWork->id) }}">{{ $recentWork->title }}</a></h2>
+                        <span>{{ $recentWork->types }}</span>
+                    </div>
                 </div>
-                <div class="wpo-project-text">
-                    <h2><a href="portfolio-single.html">{{ $recentWork->title }}</a></h2>
-                    <span>{{ $recentWork->description }}</span>
-                </div>
-            </div>
             @endforeach
         </div>
     </div>
