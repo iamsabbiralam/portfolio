@@ -5,10 +5,10 @@
             <div class="topbar-brand flex items-center">
                 <div
                     class="navbar-brand  flex items-center justify-between shrink px-5 h-[70px] border-r bg-slate-50 border-r-gray-50 dark:border-zinc-700 dark:bg-zinc-800">
-                    <a href="#" class="flex items-center font-bold text-lg  dark:text-white">
+                    <a href="/" class="flex items-center font-bold text-lg  dark:text-white">
                         <img src="{{ asset('backoffice/images/logo-sm.svg') }}" alt=""
                             class="mr-2 inline-block mt-1 h-6" />
-                        <span class="hidden xl:block">Minia</span>
+                        <span class="hidden xl:block">Home</span>
                     </a>
                 </div>
                 <button type="button" class="text-gray-600 dark:text-white h-[70px] -ml-10 mr-6 vertical-menu-btn"
