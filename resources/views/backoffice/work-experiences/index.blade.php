@@ -92,7 +92,7 @@
                                         <tr
                                             class="bg-white border-b border-gray-50 dark:bg-zinc-700 dark:border-zinc-600">
                                             <td class="px-6 py-3.5 dark:text-zinc-100">
-                                                <img @if ($workExperience->logo) src="{{ asset($workExperience->logo) }}"
+                                                <img @if ($workExperience->logo) src="{{ asset('storage/' . $workExperience->logo) }}"
                                         @else src="{{ asset('images/articles/dailyblogram.png') }}" @endif
                                                     alt="image" height="50px" width="50px">
                                             </td>
