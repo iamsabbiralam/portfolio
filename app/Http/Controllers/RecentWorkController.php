@@ -38,7 +38,7 @@ class RecentWorkController extends Controller
             $fileName = $request->get('title');
             $thumbnailName = $fileName . '.' . $request->file('thumbnail')->getClientOriginalExtension();
             $storeDate['thumbnail'] = Storage::putFileAs(
-                'images/experience/thumbnail',
+                'images/portfolio/thumbnail',
                 $request->file('thumbnail'),
                 $thumbnailName
             );
@@ -47,7 +47,7 @@ class RecentWorkController extends Controller
             $fileName = $request->get('title');
             $coverImageName = $fileName . '.' . $request->file('cover_image')->getClientOriginalExtension();
             $storeDate['cover_image'] = Storage::putFileAs(
-                'images/experience/cover-image',
+                'images/portfolio/cover-image',
                 $request->file('cover_image'),
                 $coverImageName
             );
@@ -56,7 +56,7 @@ class RecentWorkController extends Controller
             $fileName = $request->get('title');
             $subImageName = $fileName . '.' . $request->file('sub_image')->getClientOriginalExtension();
             $storeDate['sub_image'] = Storage::putFileAs(
-                'images/experience/sub-image',
+                'images/portfolio/sub-image',
                 $request->file('sub_image'),
                 $subImageName
             );
@@ -105,7 +105,7 @@ class RecentWorkController extends Controller
             $fileName = $request->get('title');
             $thumbnailName = $fileName . '.' . $request->file('thumbnail')->getClientOriginalExtension();
             $updateDate['thumbnail'] = Storage::putFileAs(
-                'images/experience/thumbnail',
+                'images/portfolio/thumbnail',
                 $request->file('thumbnail'),
                 $thumbnailName
             );
@@ -119,7 +119,7 @@ class RecentWorkController extends Controller
             $fileName = $request->get('title');
             $coverImageName = $fileName . '.' . $request->file('cover_image')->getClientOriginalExtension();
             $updateDate['cover_image'] = Storage::putFileAs(
-                'images/experience/cover-image',
+                'images/portfolio/cover-image',
                 $request->file('cover_image'),
                 $coverImageName
             );
@@ -133,7 +133,7 @@ class RecentWorkController extends Controller
             $fileName = $request->get('title');
             $subImageName = $fileName . '.' . $request->file('sub_image')->getClientOriginalExtension();
             $updateDate['sub_image'] = Storage::putFileAs(
-                'images/experience/sub-image',
+                'images/portfolio/sub-image',
                 $request->file('sub_image'),
                 $subImageName
             );

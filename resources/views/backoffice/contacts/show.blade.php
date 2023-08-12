@@ -53,11 +53,11 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td class="p-4 pr-8 border border-t-0 border-gray-50 dark:border-zinc-600">{{ $contact->name }}</td>
-                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600">{{ $contact->email }}</td>
-                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600">{{ $contact->phone }}</td>
-                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600">{{ $contact->project_type }}</td>
-                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600">{{ $contact->message }}</td>
+                                            <td class="p-4 pr-8 border border-t-0 border-gray-50 dark:border-zinc-600 text-center">{{ $contact->name }}</td>
+                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600  text-center">{{ $contact->email }}</td>
+                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600  text-center">{{ $contact->phone }}</td>
+                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600 text-center">{{ $contact->project_type }}</td>
+                                            <td class="p-4 pr-8 border border-t-0 border-l-0 border-gray-50 dark:border-zinc-600 text-center">{{ $contact->message }}</td>
                                         </tr>
                                     
                                     </tbody>

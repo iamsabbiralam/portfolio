@@ -28,7 +28,8 @@
                                                 clip-rule="evenodd"></path>
                                         </svg>
                                         <a href="#"
-                                            class="ml-1 text-sm font-medium text-gray-500 hover:text-gray-900 md:ml-2 dark:text-gray-100 dark:hover:text-white">Recent Work List</a>
+                                            class="ml-1 text-sm font-medium text-gray-500 hover:text-gray-900 md:ml-2 dark:text-gray-100 dark:hover:text-white">Recent
+                                            Work List</a>
                                     </div>
                                 </li>
                             </ol>
@@ -100,7 +101,17 @@
                                                 {{ $recentWork->types }}
                                             </td>
                                             <td class="px-6 py-3.5 dark:text-zinc-100">
-                                                <img @if ($recentWork->thumbnail) src="{{ asset($recentWork->thumbnail) }}"
+                                                <img @if ($recentWork->thumbnail) src="{{ asset('storage/' . $recentWork->thumbnail) }}"
+                                        @else src="{{ asset('images/articles/dailyblogram.png') }}" @endif
+                                                    alt="image" height="50px" width="50px">
+                                            </td>
+                                            <td class="px-6 py-3.5 dark:text-zinc-100">
+                                                <img @if ($recentWork->cover_image) src="{{ asset('storage/' . $recentWork->cover_image) }}"
+                                        @else src="{{ asset('images/articles/dailyblogram.png') }}" @endif
+                                                    alt="image" height="50px" width="50px">
+                                            </td>
+                                            <td class="px-6 py-3.5 dark:text-zinc-100">
+                                                <img @if ($recentWork->sub_image) src="{{ asset('storage/' . $recentWork->sub_image) }}"
                                         @else src="{{ asset('images/articles/dailyblogram.png') }}" @endif
                                                     alt="image" height="50px" width="50px">
                                             </td>
@@ -112,16 +123,6 @@
                                             </td>
                                             <td class="px-6 py-3.5 dark:text-zinc-100">
                                                 {{ $recentWork->completion_date->format('Y-m-d') }}
-                                            </td>
-                                            <td class="px-6 py-3.5 dark:text-zinc-100">
-                                                <img @if ($recentWork->cover_image) src="{{ asset($recentWork->cover_image) }}"
-                                        @else src="{{ asset('images/articles/dailyblogram.png') }}" @endif
-                                                    alt="image" height="50px" width="50px">
-                                            </td>
-                                            <td class="px-6 py-3.5 dark:text-zinc-100">
-                                                <img @if ($recentWork->sub_image) src="{{ asset($recentWork->sub_image) }}"
-                                        @else src="{{ asset('images/articles/dailyblogram.png') }}" @endif
-                                                    alt="image" height="50px" width="50px">
                                             </td>
                                             <td class="px-6 py-3.5 dark:text-zinc-100 flex justify-items-start">
                                                 <div class="dropstart text-end relative">
@@ -135,7 +136,7 @@
                                                         aria-labelledby="dropdownMenu1">
                                                         <li>
                                                             <a class="dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 dark:text-gray-100 hover:bg-gray-50/50 dark:hover:bg-zinc-600/50"
-                                                                href="{{ route('recent-works.edit' ,$recentWork->id ) }}"><i
+                                                                href="{{ route('recent-works.edit', $recentWork->id) }}"><i
                                                                     class="fas fa-light fa-pen-to-square px-1"></i>{{ __('Edit') }}</a>
                                                         </li>
                                                         <li>

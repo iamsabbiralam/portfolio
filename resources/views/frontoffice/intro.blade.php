@@ -14,7 +14,7 @@
                                 <h5>Back-end Developer</h5>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="slide-btn"><a class="theme-btn" href="about.html">Hire Me</a></div>
+                            <div class="slide-btn"><a class="theme-btn" href="{{ route('contact') }}">Hire Me</a></div>
                         </div>
                     </div>
                 </div>
