@@ -25,4 +25,11 @@ class FrontendController extends Controller
         return view('frontoffice.portfolio.show', $data);
     }
 
+    public function contact()
+    {
+        $data['title'] = 'Contact';
+
+        return view('frontoffice.contact', $data);
+    }
+
 }

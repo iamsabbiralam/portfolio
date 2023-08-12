@@ -9,7 +9,7 @@
                     </div>
                     <div class="col col-lg-6">
                         <div class="send-message-btn">
-                            <a class="theme-btn" href="contact.html">Contact Us</a>
+                            <a class="theme-btn" href="{{ route('contact') }}">Contact Us</a>
                         </div>
                     </div>
                 </div>

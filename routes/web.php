@@ -20,6 +20,7 @@ use App\Http\Controllers\WorkExperienceController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('home');
 Route::get('/portfolio/{id}', [FrontendController::class, 'portfolio'])->name('portfolio');
+Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
