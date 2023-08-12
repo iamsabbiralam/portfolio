@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use App\Models\RecentWork;
-use App\Models\WorkExperience;
 use Illuminate\Http\Request;
+use App\Models\WorkExperience;
 
 class FrontendController extends Controller
 {
@@ -32,4 +33,20 @@ class FrontendController extends Controller
         return view('frontoffice.contact', $data);
     }
 
+    public function postContact(Request $request)
+    {
+        $data = $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'project_type' => 'required',
+            'message' => 'required'
+        ]);
+        $store = Contact::create($data);
+        if (empty($store)) {
+            return redirect()->back()->with('errors', 'Something went wrong');
+        }
+
+        return redirect()->back()->with('success', 'Your message has been sent successfully');
+    }
 }

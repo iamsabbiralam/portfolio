@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FrontendController;
@@ -21,11 +22,13 @@ use App\Http\Controllers\WorkExperienceController;
 Route::get('/', [FrontendController::class, 'index'])->name('home');
 Route::get('/portfolio/{id}', [FrontendController::class, 'portfolio'])->name('portfolio');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
+Route::post('/contact', [FrontendController::class, 'postContact'])->name('contact.post');
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
     Route::resource('work-experiences', WorkExperienceController::class)->except('show');
     Route::resource('recent-works', RecentWorkController::class);
+    Route::resource('contacts', ContactController::class);
 });
 
 Route::middleware('auth')->group(function () {

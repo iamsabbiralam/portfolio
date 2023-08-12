@@ -68,7 +68,8 @@
                     <h2>Have Any Question?</h2>
                 </div>
                 <div class="wpo-contact-form-area">
-                    <form method="post" class="contact-validation-active" id="contact-form-main">
+                    <form method="post" action="{{ route('contact.post') }}" class="contact-validation-active">
+                        @csrf
                         <div>
                             <input type="text" class="form-control" name="name" id="name"
                                 placeholder="Your Name*">
@@ -83,7 +84,7 @@
                         </div>
                         <div>
                             <select name="project_type" class="form-control">
-                                <option disabled="disabled" selected="">Project Type</option>
+                                <option disabled="disabled" selected="">choose...</option>
                                 <option value="e-commerce">E-commerce</option>
                                 <option value="inventory">Inventory</option>
                                 <option value="oms">OMS</option>
