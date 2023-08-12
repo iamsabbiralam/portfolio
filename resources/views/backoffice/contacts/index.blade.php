@@ -46,14 +46,6 @@
                                     class="block p-2 pl-10 text-sm text-gray-900 border border-gray-50 rounded w-80 bg-gray-50/20 focus:ring-0 dark:bg-zinc-700 dark:border-zinc-600 dark:placeholder:text-zinc-100/60 dark:text-zinc-100"
                                     placeholder="Search for categories">
                             </div>
-                            <div class="">
-                                <a href="">
-                                    <button type="button"
-                                        class="btn text-white bg-green-500 border-green-500 hover:bg-green-600 hover:border-green-600 focus:bg-green-600 focus:border-green-600 focus:ring focus:ring-green-500/30 active:bg-green-600 active:border-green-600"><i
-                                            class="fa-solid fa-plus align-middle mr-1"></i><span
-                                            class="align-middle">{{ __('Create Work Experience') }}</span></button>
-                                </a>
-                            </div>
                         </div>
                         <div class="relative overflow-x-auto mb-2">
                             <table class="w-full text-sm text-left text-gray-500 ">
