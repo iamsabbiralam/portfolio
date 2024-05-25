@@ -1,0 +1,23 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Mon, 17 Apr 2023 18:05:46 at https://wpocean.com/html/tf/elito-live/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://wpocean.com/html/tf/elito-live/index.html -O "/home/codemen-14/websites/portfolio" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:07:47	Error: 	"Not Found" (404) at link https://wpocean.com/html/tf/elito-live/pricing.html (from https://wpocean.com/html/tf/elito-live/index.html)
+18:07:47	Error: 	"Not Found" (404) at link https://wpocean.com/html/tf/elito-live/project-single.html (from https://wpocean.com/html/tf/elito-live/portfolio-masonary.html)
+18:07:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://wpocean.com/html/tf/elito-live/assets/js/jquery.min.js
+18:07:48	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://wpocean.com/html/tf/elito-live/assets/js/bootstrap.bundle.min.js
+18:07:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://wpocean.com/html/tf/elito-live/assets/js/modernizr.custom.js
+18:07:50	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://wpocean.com/html/tf/elito-live/assets/js/jquery.dlmenu.js
+18:07:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://wpocean.com/html/tf/elito-live/assets/js/jquery-plugin-collection.js
+18:07:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://wpocean.com/html/tf/elito-live/assets/js/moving-animation.js
+18:07:51	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://wpocean.com/html/tf/elito-live/assets/js/script.js
+18:08:33	Error: 	"Not Found" (404) at link https://wpocean.com/html/tf/elito-live/assets/css/owl.video.play.png (from https://wpocean.com/html/tf/elito-live/assets/css/owl.carousel.css)
+18:08:33	Error: 	"Not Found" (404) at link https://wpocean.com/html/tf/elito-live/assets/images/bg-2.jpg (from https://wpocean.com/html/tf/elito-live/assets/sass/style.css)
+18:08:33	Error: 	"Not Found" (404) at link https://wpocean.com/html/tf/elito-live/assets/images/Single-title-shape2.png (from https://wpocean.com/html/tf/elito-live/assets/sass/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 47 seconds : 161 links scanned, 164 files written (6935848 bytes overall) [4290894 bytes received at 25693 bytes/sec], 4103351 bytes transferred using HTTP compression in 64 files, ratio 30%, 21.2 requests per connection
+(5 errors, 7 warnings, 0 messages)

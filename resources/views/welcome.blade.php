@@ -1,8 +1,0 @@
-@include('frontoffice.header')
-@include('frontoffice.intro')
-@include('frontoffice.details')
-@include('frontoffice.experience')
-@include('frontoffice.work')
-@include('frontoffice.blog')
-@include('frontoffice.footer')
-@include('frontoffice.script')
